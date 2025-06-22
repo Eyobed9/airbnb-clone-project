@@ -1,5 +1,7 @@
 # airbnb-clone-project
 
+# FrontEnd
+
 ## Project Description
 This project is a full-stack clone of the popular accommodation booking platform AirBnB. The goal is to build a functional web application that allows users to browse property listings, view detailed property information, and complete bookings. The project will cover frontend development, backend APIs, database design, and deployment.
 
@@ -40,6 +42,7 @@ This project is a full-stack clone of the popular accommodation booking platform
 - Secondary Text: Circular, Book (400), 14px
 
 ## Project Roles and Responsibilities
+
 | Role	 | Responsibilities	 | 
 |----------|----------|
 | Project Manager	 | 	Oversees timeline, coordinates team, manages deliverables 	 | 
@@ -50,7 +53,6 @@ This project is a full-stack clone of the popular accommodation booking platform
 | DevOps Engineers		 | Manages deployment, CI/CD pipeline, server infrastructure	 | 
 | Product Owner		 | Defines requirements, prioritizes features, represents stakeholders	 | 
 | Scrum Master		 | Facilitates agile processes, removes blockers, organizes meetings	 | 
-
 
 ## UI Component Patterns
 ### Planned Components
@@ -75,4 +77,46 @@ This project is a full-stack clone of the popular accommodation booking platform
 - Social media links
 - Copyright information
 
+# Backend
 
+## Team roles
+| Role	 | Responsibilities	 | 
+|----------|----------|
+| Project Manager	 | 	Oversees timeline, coordinates team, manages deliverables 	 | 
+| Frontend Developers		 | Implements UI components, ensures responsive design	 | 
+| Backend Developers	 | 	Builds APIs, manages database, implements business logic	 | 
+| Designers	 | 	Creates mockups, maintains design system, ensures UX quality	 | 
+| QA/Testers 	 | 	Writes test cases, performs testing, reports bugs	 | 
+| DevOps Engineers		 | Manages deployment, CI/CD pipeline, server infrastructure	 | 
+| Product Owner		 | Defines requirements, prioritizes features, represents stakeholders	 | 
+| Scrum Master		 | Facilitates agile processes, removes blockers, organizes meetings	 | 
+
+## ⚙️ Technology Stack
+- Django: A high-level Python web framework used for building the RESTful API.
+- Django REST Framework: Provides tools for creating and managing RESTful APIs.
+- PostgreSQL: A powerful relational database used for data storage.
+- GraphQL: Allows for flexible and efficient querying of data.
+- Celery: For handling asynchronous tasks such as sending notifications or processing payments.
+- Redis: Used for caching and session management.
+- Docker: Containerization tool for consistent development and deployment environments.
+- CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
+
+## Database Design
+Indexing: Implement indexes for fast retrieval of frequently accessed data.
+Caching: Use caching strategies to reduce database load and improve performance.
+
+## Feature Breakdown
+1. User Management: Implement a secure system for user registration, authentication, and profile management.
+2. Property Management: Develop features for property listing creation, updates, and retrieval.
+3. Booking System: Create a booking mechanism for users to reserve properties and manage booking details.
+4. Payment Processing: Integrate a payment system to handle transactions and record payment details.
+5. Review System: Allow users to leave reviews and ratings for properties.
+6. Data Optimization: Ensure efficient data retrieval and storage through database optimizations.
+
+## API Security
+- OpenAPI Standard: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.
+- Django REST Framework: Provides a comprehensive RESTful API for handling CRUD operations on user and property data.
+- GraphQL: Offers a flexible and efficient query mechanism for interacting with the backend.
+
+## CI/CD Pipeline
+- TODO
