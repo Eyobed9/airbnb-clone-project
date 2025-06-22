@@ -79,7 +79,7 @@ This project is a full-stack clone of the popular accommodation booking platform
 
 # Backend
 
-## Team roles
+## Team Roles
 | Role	 | Responsibilities	 | 
 |----------|----------|
 | Project Manager	 | 	Oversees timeline, coordinates team, manages deliverables 	 | 
